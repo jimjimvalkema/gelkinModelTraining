@@ -1,0 +1,24 @@
+pytorch1.13.1:‚
+?
+input
+onnx::MatMul_12/0/MatMul_output_0	/0/MatMul"MatMul
+:
+0.bias
+/0/MatMul_output_0/0/Add_output_0/0/Add"Add
+I
+/0/Add_output_0
+onnx::MatMul_13/1/MatMul_output_0	/1/MatMul"MatMul
+:
+1.bias
+/1/MatMul_output_0/1/Add_output_0/1/Add"Add
+(
+/1/Add_output_0output/2/Relu"Relu	torch_jit*B0.biasJ ë¾¨64¿÷¯Ï¾*B1.biasJ@¹¾*1Bonnx::MatMul_12Jbı>>Š?ö»>Xó¯¾½?'Iİ»*%Bonnx::MatMul_13JGÇ™¾Ãa
+>-èò¾Z
+input
+
+
+batch_sizeb
+output
+
+
+batch_sizeB
